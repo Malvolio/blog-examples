@@ -1,5 +1,5 @@
 /**
- * terrible use of /subscribe()
+ * terrible use of .subscribe()
  * Do NOT do this
  */
 @Component({
