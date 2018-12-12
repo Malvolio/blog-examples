@@ -4,6 +4,5 @@
 export class SomeComponent  {
   constructor(private someService: SomeService) {}
   
-  currentValue = this.someService.getSomeObservable()
-                     .pipe(share());
+  currentValue = this.someService.getSomeObservable();
 }
