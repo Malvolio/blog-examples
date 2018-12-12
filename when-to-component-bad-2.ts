@@ -12,8 +12,8 @@ export class SomeComponent implements OnDestroy {
     someService.getSomeObservable()
       .pipe(takeUntil(this.onDestroy))
       .subscribe(v => {
-      this.currentValue = v;
-    });
+       this.currentValue = v;
+      });
   }
   ngOnDestroy() {
     this.onDestroy.next();
